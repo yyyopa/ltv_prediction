@@ -1,0 +1,14 @@
+# Data files
+Files/
+Files_Predictions/
+Files_Predictions_Final/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# IDEs
+.vscode/
+.idea/
