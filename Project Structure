@@ -1,0 +1,15 @@
+LTV_Prediction_LSTM/
+├── src/
+│   ├── ltv_predictor.py
+│   ├── ltv_comparator.py
+│   └── ltv_run_analysis.py
+├── notebooks/
+│   └── model_analysis.ipynb
+├── tests/
+│   └── test_prediction.py
+├── data/
+│   ├── sample/
+│   └── README.md
+├── requirements.txt
+├── .gitignore
+└── README.md
