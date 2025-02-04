@@ -57,7 +57,20 @@ LTV_ML/
 - Output layer (Softplus activation)
 
 ## Results
-[Add visualization of prediction results]
+Model Performance (Feb 2025):
+- Training MAE: 0.0014
+- Validation MAE: 0.0014 
+- Average prediction accuracy: 98.6%
+
+Key findings:
+- Initial accuracy (D7-D10): 99.1% average
+- Mid-term accuracy (D20-D30): 98.2% average
+- Long-term accuracy (D30-D36): 98.8% average
+- MAE remains stable across epochs
+
+![Prediction Accuracy](results/prediction_accuracy.png)
+
+![MAE Trend](results/mae_trend.png)
 
 ## License
 MIT License
