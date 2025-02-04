@@ -2,13 +2,18 @@
 Files/
 Files_Predictions/
 Files_Predictions_Final/
+data/Files/
+data/Files_Predictions/
+data/Files_Predictions_Final/
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 .env
+*.pyc
 
-# IDEs
+# IDEs and System
 .vscode/
 .idea/
+.DS_Store
