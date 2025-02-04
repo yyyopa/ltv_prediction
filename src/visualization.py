@@ -1,5 +1,9 @@
+import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+# Create results directory if it doesn't exist
+os.makedirs('results', exist_ok=True)
 
 # Create heatmap visualization
 plt.figure(figsize=(12, 8))
