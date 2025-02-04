@@ -1,0 +1,10 @@
+# 1. src 디렉토리 생성
+mkdir src
+
+# 2. 파일 이동
+mv ltv_predictor.py src/
+mv ltv_comparator.py src/
+mv ltv_run_analysis.py src/
+
+# 3. __init__.py 생성
+touch src/__init__.py
