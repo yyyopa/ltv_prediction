@@ -1,15 +1,21 @@
-LTV_Prediction_LSTM/
+LTV_ML/
 ├── src/
+│   ├── __init__.py
 │   ├── ltv_predictor.py
 │   ├── ltv_comparator.py
-│   └── ltv_run_analysis.py
-├── notebooks/
-│   └── model_analysis.ipynb
+│   ├── ltv_run_analysis.py
+│   └── visualization.py
+├── data/
+│   ├── Files/                  # Original LTV data
+│   ├── Files_Predictions/      # Model predictions
+│   └── Files_Predictions_Final/# Corrected predictions
+├── results/
+│   ├── prediction_accuracy.png
+│   └── mae_trend.png
 ├── tests/
 │   └── test_prediction.py
-├── data/
-│   ├── sample/
-│   └── README.md
+├── notebooks/
+│   └── model_analysis.ipynb
 ├── requirements.txt
 ├── .gitignore
 └── README.md
