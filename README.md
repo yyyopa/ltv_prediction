@@ -9,17 +9,9 @@ Deep learning model for User Lifetime Value (LTV) prediction using LSTM networks
 - Automated correction system
 - Continuous learning from new data
 
-## Features
-
-- Daily LTV predictions up to 30 days
-- Historical data-based model training
-- Automated error correction
-- Growth pattern analysis
-- Production-ready data pipeline
-
 ## Prerequisites
 
-```python
+```txt
 tensorflow>=2.0.0
 pandas>=1.0.0
 numpy>=1.18.0
