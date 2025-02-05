@@ -1,6 +1,7 @@
 import os
 from src.ltv_predictor import LTVPredictor
 from src.ltv_comparator import LTVComparator
+from src.visualization import create_visualizations
 
 def run_ltv_analysis(base_path, prediction_days=30, epochs=50):
    """Run complete LTV prediction and correction pipeline.
@@ -9,7 +10,7 @@ def run_ltv_analysis(base_path, prediction_days=30, epochs=50):
        base_path (str): Base directory for data files
        prediction_days (int): Number of days to predict ahead
        epochs (int): Number of training epochs
-       
+
    Returns:
        tuple: (Final predictions DataFrame, Differences statistics DataFrame)
    """
@@ -32,7 +33,10 @@ def run_ltv_analysis(base_path, prediction_days=30, epochs=50):
    day_stats = differences_df.groupby('Day')['Difference_Percent'].agg(['mean', 'std', 'count'])
    print("\nDifference Statistics by Day:")
    print(day_stats.round(4))
-   
+
+   # 시각화 추가
+    create_visualizations(day_stats, history)
+
    return final_predictions, differences_df
 
 if __name__ == "__main__":
