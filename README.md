@@ -1,6 +1,24 @@
 # LTV Prediction Model with LSTM
 
-Deep learning model for User Lifetime Value (LTV) prediction using LSTM networks. This project implements daily LTV predictions with automated correction based on historical patterns.
+Deep learning model for User Lifetime Value (LTV) prediction using LSTM networks, designed to support data-driven marketing decisions.
+This project implements daily LTV predictions with automated correction based on historical patterns.
+
+## Project Motivation
+
+As a marketer, predicting future LTV is crucial for making informed budget allocation decisions. This project was born from the need to:
+- Predict future LTV trends for proactive budget optimization
+- Enable data-driven decisions for campaign scale-up
+- Automate the LTV prediction process using historical patterns
+
+The model helps determine when to scale up marketing campaigns by predicting if future LTV will exceed current benchmarks, allowing for more strategic budget allocation.
+
+## Learning Journey
+
+As a non-developer with a marketing background, this project presented several challenges:
+1. **Technical Learning**: Self-taught Python and deep learning through online resources
+2. **Development Process**: Utilized AI tools (ChatGPT, Claude.ai) for code development
+3. **Validation Process**: Iteratively verified predictions against actual LTV data
+4. **Model Refinement**: Continuously improved accuracy through testing and optimization
 
 ## Overview
 
@@ -82,8 +100,26 @@ Model training characteristics:
 ![Prediction Accuracy](results/prediction_accuracy.png)
 ![MAE Trend](results/mae_trend.png)
 
+## Business Impact
+
+The model has enabled:
+- Faster marketing decision-making through accurate LTV predictions
+- Data-driven campaign scaling based on predicted performance
+- More efficient budget allocation across marketing channels
+- Reduced risk in campaign investments
+
+## Future Improvements
+
+Plan to enhance the model by:
+1. Implementing more sophisticated deep learning architectures
+2. Further reducing prediction error rates
+3. Adding real-time prediction capabilities
+4. Incorporating more marketing variables for better accuracy
+
 ## License
 MIT License
 
-## Author
-Ilyeop
+## Connect with Me
+
+- Email: [ilyeop.kang@gmail.cm]
+- LinkedIn: [https://www.linkedin.com/in/ilyeop-kang-0828/]
