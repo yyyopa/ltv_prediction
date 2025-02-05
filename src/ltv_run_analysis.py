@@ -18,9 +18,9 @@ def run_ltv_analysis(base_path, prediction_days=30, epochs=50):
    # Step 1: Initial LTV Prediction
    print("\n=== Starting LTV Prediction ===")
    predictor = LTVPredictor(base_path)
-   predictions_df, _ = predictor.process_and_predict(
-       prediction_days=prediction_days,
-       epochs=epochs
+   predictions_df, _, history = predictor.process_and_predict(  # history 받기
+        prediction_days=prediction_days,
+        epochs=epochs
    )
    
    # Step 2: Prediction Correction
