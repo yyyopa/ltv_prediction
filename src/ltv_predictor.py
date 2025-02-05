@@ -369,7 +369,7 @@ class LTVPredictor:
          result.to_csv(output_path, index=False, float_format='%.2f')
          print(f"Predictions saved to: {output_path}")
          
-         return result, output_path
+         return result, output_path, history
          
      except Exception as e:
          print(f"An error occurred: {str(e)}")
