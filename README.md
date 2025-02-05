@@ -58,18 +58,28 @@ LTV_ML/
 
 ## Results
 Model Performance (Feb 2025):
-- Training MAE: 0.0014
-- Validation MAE: 0.0014 
-- Average prediction accuracy: 98.6%
+* Training MAE: 0.0014 
+* Validation MAE: 0.0013
+* Average prediction accuracy: 98.5%
 
-Key findings:
-- Initial accuracy (D7-D10): 99.1% average
-- Mid-term accuracy (D20-D30): 98.2% average
-- Long-term accuracy (D30-D36): 98.8% average
-- MAE remains stable across epochs
+Key findings from validation results:
+* Short-term prediction (D7-D10):
+ - Average accuracy: 99.0%
+ - Variance range: ±0.034~0.116
+* Mid-term prediction (D20-D30):
+ - Average accuracy: 97.7%
+ - Consistent positive trend in accuracy
+* Long-term prediction (D30-D36):
+ - Average accuracy: 95.8%
+ - Maximum deviation: 4.83%
+
+Model training characteristics:
+* MAE stabilizes around epoch 40
+* Final validation loss: 5.09e-6
+* Robust performance across 50 epochs
+* Successfully processed 123,028 sequences
 
 ![Prediction Accuracy](results/prediction_accuracy.png)
-
 ![MAE Trend](results/mae_trend.png)
 
 ## License
