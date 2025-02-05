@@ -1,6 +1,6 @@
 import os
-from ltv_predictor import LTVPredictor
-from ltv_comparator import LTVComparator
+from src.ltv_predictor import LTVPredictor
+from src.ltv_comparator import LTVComparator
 
 def run_ltv_analysis(base_path, prediction_days=30, epochs=50):
    """Run complete LTV prediction and correction pipeline.
