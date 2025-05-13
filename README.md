@@ -80,7 +80,7 @@ from ltv_run_analysis import run_ltv_analysis
 results = run_ltv_analysis(
     base_path='path/to/data',
     prediction_days=30,
-    epochs=50
+    epochs=1000
 )
 ```
 ### Data Format
